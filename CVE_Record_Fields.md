@@ -22,9 +22,8 @@ From CNA Rules 1.1, Appendix B <https://cve.mitre.org/cve/cna/CNA_Rules_v1.1.pdf
 <del>[REFERENCES]:</del> (**Removed**)
 
 <del>[DESCRIPTION]: (Could include attack type/vectors, impact, components)</del> (**Removed**)
-\[PUBLICATION DATE]: (**Added**, date public, or timeline of events related to publication)
+\[PUBLICATION DATE]: (**Added**, date public, or timeline of events related to publication)
 
 \[ASSIGNING CNA]: (**Added**, or chain of assigning CNAs if there is a Sub-CNA under a Root doing the assignment)
 
 \[IMPACT]: (**Added**)
-
