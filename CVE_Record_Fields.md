@@ -1,4 +1,4 @@
-#Required CVE Fields
+# Required CVE Fields
 Strict/narrow question is: Do required fields change, and if so, how?
 
 Strongly related: Guidance/semantics for field data.
@@ -8,14 +8,14 @@ See also: <https://github.com/CVEProject/automation-working-group/blob/master/cv
 At least one discussion thread:
 <http://common-vulnerabilities-and-exposures-cve-board.1128451.n5.nabble.com/Required-information-for-CVE-entry-submissions-td1046.html#none>
 
-##Current
+## Current
 From CNA Rules 1.1, Appendix B <https://cve.mitre.org/cve/cna/CNA_Rules_v1.1.pdf>
 
 \[CVEID]:
 
 \[PRODUCT]: (includes vendor name)\[VERSION]: (affected, not affected)\[PROBLEMTYPE]: (Sometimes CWE)\[REFERENCES]:\[DESCRIPTION]: (Could include attack type/vectors, impact, components)
 
-##Proposal 1
+## Proposal 1
 \[CVEID]:
 
 \[PRODUCT]: (includes vendor name)\[VERSION]: (affected, not affected)\[PROBLEMTYPE]: (Sometimes CWE)

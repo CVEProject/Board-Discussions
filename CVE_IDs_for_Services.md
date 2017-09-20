@@ -1,4 +1,4 @@
-#CVE IDs for Service Vulnerabilities
+# CVE IDs for Service Vulnerabilities
 
 This document is meant to organize discussion around this question: **Can CVE IDs be assigned for vulnerabilities that affect services?**
 
