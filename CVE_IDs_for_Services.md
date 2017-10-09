@@ -61,6 +61,15 @@ Cisco's fix was to enable logging of these events. A customer could use knowledg
 5. [WebEx Meeting Access Number Vuln](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/Cisco-SA-20150622-CVE-2015-4207) CVE-2015-4207. In this vulnerability, a user might have been able to dial into a web conference call without registering or identifying themselves. While the fix doesn't involve action on a user's part, they may want to take action to secure any information that was disclosed in those meetings. Perhaps URLs or passwords were disclosed that can be changed. 
 6. [WebEx Meetings Calendar Download](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/Cisco-SA-20150622-CVE-2015-4209). CVE-2015-4209. In this case, .ics (calendar) files for meetings could be accessed by unauthorized users. These could allow attackers into future meetings, some of them perhaps recurring for months. Thus, disclosure to users allows them to cancel the meetings, or to change the access passwords to prevent attacker abuse of those meetings whose details had been disclosed.
 7. Bad HTTPS certificates/configurations (e.g. using self signed certs on the public internet, using out of date certs, certs for the wrong host name, etc.). Lots of examples of banks messing this up in Google.
+   * Expired certificate: https://hackerone.com/reports/220615
+   * Incorrect CN: https://hackerone.com/reports/225540
+   * Small key: https://hackerone.com/reports/115271
 8. Account/info discovery bugs in web sites, a quick set of results: https://search.theregister.co.uk/?q=account+discovery+bug&page=1&source=osd
 9. Letting a domain name lapse, breaking stuff in all sorts of fun ways:  https://www.theregister.co.uk/2017/09/29/sorenson_fined_3m_outage/
 10. DDoS attacks against large service providers that really shouldn't be DDOS'able https://techcrunch.com/2016/10/21/many-sites-including-twitter-and-spotify-suffering-outage/ 
+11. Ticket Trick: https://medium.freecodecamp.org/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c
+12. onMouseOver Twitter worm: https://blog.twitter.com/official/en_us/a/2010/all-about-the-onmouseover-incident.html
+13. XSS in website: https://www.openbugbounty.org/reports/59483/
+14. OAuth abuse: https://www.tripwire.com/state-of-security/security-data-protection/google-docs-worm-ransacks-gmail-users-need-know/
+15. Weak cipher suites: https://hackerone.com/reports/76303
+16. Unintended exposure to the internet: https://hackerone.com/reports/267161
