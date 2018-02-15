@@ -1,8 +1,8 @@
-#CVE IDs for Service Vulnerabilities
+# CVE IDs for Service Vulnerabilities
 
 This document is meant to organize discussion around this question: **Can CVE IDs be assigned for vulnerabilities that affect services?**
 
-Likely web services, that appear as a single or small number of instances. A vulnerability in such a service is fixed once for all users, users do not have to take action such as updating or patching, users may have to restart a session or browser.
+Likely web services, that appear as a single or small number of instances. A vulnerability in such a service is fixed once for all users, users do not have to take action such as updating or patching, users may have to restart a session or browser. To further clarify this is for issues within the service and service software itself that is not generally available. Current CVE coverage of software can be used (e.g. the AFFECTED data) to list services relying upon software that has publicly documented CVEs. 
 
 See also: <https://github.com/CVEProject/docs/issues/18> and INC3 in <https://cve.mitre.org/cve/cna/CNA_Rules_v1.1.pdf>
 
